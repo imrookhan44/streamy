@@ -1,0 +1,299 @@
+.video-div{
+  box-sizing: border-box;
+position: absolute;
+width: 1168px;
+height: 879px;
+left: 10px;
+top: 75px;
+
+background: #FFFFFF;
+border: 1px solid #D0D0D0;
+}
+
+.video-image-div{
+  box-sizing: border-box;
+position: absolute;
+height: 879px;
+left: 0px;
+top: 50px;
+
+background: #FFFFFF;
+border: 1px solid #D0D0D0;
+}
+
+.video-image-div img{
+  width: 1165px;
+
+}
+
+.video-image-button{
+  position: absolute;
+width: 226px;
+height: 126.26px;
+/* left: 10px; */
+top: 680.74px;
+background: #7E7E7E;
+}
+
+.video-image-button p{
+  position: absolute;
+width: 163.4px;
+height: 48.81px;
+left: 65px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.right-video-div{
+  box-sizing: border-box;
+
+position: absolute;
+width: 600px;
+height: 879px;
+left: 1190px;
+top: 75px;
+
+background: #FFFFFF;
+border: 1px solid #D0D0D0;
+}
+
+.connect-button{
+  position: absolute;
+width: 129px;
+height: 48px;
+left: 1031px;
+top: 85.77%;
+background: #F93032;
+border-radius: 10px;
+}
+.connect-button p{
+  position: absolute;
+width: 96px;
+height: 23px;
+left: 40px;
+top: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.microphone-button{
+  position: absolute;
+left: 45.99%;
+right: 67.99%;
+top: 85.77%;
+bottom: 4.52%;
+}
+.video-button{
+  position: absolute;
+left: 55.67%;
+right: 63.89%;
+top: 85.77%;
+bottom: 4.98%;
+}
+
+.right-video-div-main{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.line{
+  position: absolute;
+width: 62px;
+height: 0px;
+left: 230px;
+top: 47px;
+border: 1px solid #E6E6E6;
+transform: rotate(-90deg);
+}
+
+.right-video-div-1-1 h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #242424;
+}
+
+.right-video-div-1-1 p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+color: #242424;
+
+}
+
+.messages{
+  position: absolute;
+width: 464px;
+height: 85px;
+left: 10px;
+top: 162px;
+
+background: #E4E6EB;
+border-radius: 15px;
+}
+
+.messages .messages-1 p{
+padding: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+
+}
+
+.messages-2{
+  position: absolute;
+width: 427px;
+height: 63px;
+left: 169px;
+top: 258px;
+padding: 10px;
+background: #0075FF;
+border-radius: 15px;
+}
+
+.messages-2 .messages-2-1 p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  color: #FFFFFF;
+}
+
+.input__div .input__div-1{
+  position: absolute;
+width: 600px;
+height: 0px;
+top: 785px;
+
+border: 1px solid #C2C2C2;
+}
+
+.input__div .input__div-2{
+  position: absolute;
+width: 600px;
+height: 20px;
+left: 0px;
+top: 820px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+justify-content: space-between;
+color: #9B9B9B;
+
+}
+.input__div .input__div-2 input {
+  border: none;
+  outline: none;
+}
+.send-div{
+  padding: 0 10px 0 0;
+}
+
+/* .send-div .emoji-image {
+  position: absolute;
+left: 5.56%;
+right: 5.56%;
+top: 5.56%;
+bottom: 5.56%;
+
+background: #8E9FAF;
+} */
+
+.btn-arrow{
+width: 81px;
+height: 35px;
+display: flex;
+background: #009B3E;
+border-radius: 10px;
+justify-content: space-between;
+align-items: center;
+padding: 0 10px;
+}
+.btn-arrow p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-top: 20px;
+color: #FFFFFF;
+
+}
+
+.btn-arrow img{
+  width: 16.97px;
+  height: 16.97px;
+
+}
+.btn-input input{
+  box-sizing: border-box;
+width: 110px;
+height: 35px;
+background: #F4F4F4;
+border: 1px solid #DCDCDC;
+border-radius: 10px;
+}
+.btn-eth{
+  box-sizing: border-box;
+width: 111px;
+display: flex;
+/* justify-content: ; */
+align-items: center;
+height: 35px;
+background: #F4F4F4;
+border: 1px solid #DCDCDC;
+border-radius: 10px;
+}
+.btn-eth p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-top: 20px;
+color: #191919;
+}
